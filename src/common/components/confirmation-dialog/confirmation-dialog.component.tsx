@@ -5,12 +5,12 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogActions from '@material-ui/core/DialogActions';
 import Button from '@material-ui/core/Button';
 
-interface LabelProps {
+export interface LabelProps {
   closeButton: string;
   acceptButton: string;
 }
 
-interface Props {
+export interface Props {
   isOpen: boolean;
   onAccept: () => void;
   onClose: () => void;
